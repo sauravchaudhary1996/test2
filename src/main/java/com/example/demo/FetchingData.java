@@ -25,6 +25,7 @@ public class FetchingData {
 	@RequestMapping(value = "/", method = RequestMethod.GET, produces = "application/JSON")
 	private static void getEmployees(HttpServletResponse response) {
 		try {
+			System.out.printlN("jenkin testing");
 			// final String uri =
 			// "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=4043f61118a64f559416fe4966557758";
 			URL url = new URL(
